@@ -1,0 +1,25 @@
+{
+  "name": "solana-campaign",
+  "version": "1.0.0",
+  "description": "A solana campaign project",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+
+
+  "scripts": {
+    "start": "node index.js",
+    "build:program": "cd program && cargo build-bpf --manifest-path=./Cargo.toml --bpf-out-dir=dist/program",
+    "test:program": "cd program && cargo test-bpf",
+    "deploy:program": "cd program && solana deploy dist/program/solana_campaign.so"
+  },
+
+  "dependencies": {
+    "@solana/web3.js": "^1.35.1",
+    "mz": "^2.7.0",
+    "chalk": "^4.1.2",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.0",
+    "yargs-parser": "^21.0.0"
+  }
+}

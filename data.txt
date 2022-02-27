@@ -1,0 +1,10 @@
+The address of campaign1 account is : GYWE5cpzy645HUUcCDcQadby5HDPGn7BDswkuz3SeP2U
+✨  Done in 5.46s.
+➜  solana-campaign: solana account GYWE5cpzy645HUUcCDcQadby5HDPGn7BDswkuz3SeP2U
+
+Public Key: GYWE5cpzy645HUUcCDcQadby5HDPGn7BDswkuz3SeP2U
+Balance: 0.00801792 SOL
+Owner: 8KvzMQrEYCt8dUE8tVXXzZVxDSxM36erHnTMdJBCtTm4
+Executable: false
+Rent Epoch: 0
+Length: 1024 (0x400) bytes
